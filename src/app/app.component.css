@@ -1,0 +1,24 @@
+.carousel-inner{
+    display: flex;
+}
+.carousel-indicators{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-top: -20px;
+}
+.index{
+    height:10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.index:hover{
+    background-color: black;
+}
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
